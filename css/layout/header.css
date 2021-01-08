@@ -1,0 +1,169 @@
+.top {
+    background-color: #14233C;
+}
+
+.header {
+    border-bottom: 1px solid #3A465E;
+    display: flex;
+}
+
+.first-content {
+    background-image: url(../../img/images/cards-desktop.png);
+    height: 700px;
+    background-size: 880px;
+    background-repeat: no-repeat;
+    background-position: 640px -20px;
+    background-color: #14233C;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 10px;
+    margin-left: var(--padding-left);
+    position: absolute;
+    top: -50px;
+}
+
+.sign-up {
+    color: white;
+    background-color: #00A0D6;
+    padding: 8px 15px;
+    border-radius: 5px;
+    width: max-content;
+    height: min-content;
+    box-shadow: 0px 1px 5px black;
+    position: absolute;
+    top: -50px;
+    right: 30px;
+}
+
+.sign-up-position a {
+text-decoration: none;
+}
+
+.sign-up:hover{
+    color: black;
+    background-color: #0198ca;
+}
+
+.sign-up:active{
+    box-shadow: inset 2px 2px 2px rgb(31, 31, 31);
+}
+
+.sign-up-position {
+    margin: auto var(--padding-left) auto auto;
+}
+
+.title-position {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: var(--padding-left);
+    margin-right: var(--padding-left);
+}
+
+.text1 {
+    width: 470px;
+    font-size: 150%;
+    position: absolute;
+    color:  #B9BDC5;
+    margin-top: 270px;
+    margin-left: var(--padding-left);
+}
+
+.text2 {
+    width: 400px;
+    font-size: 150%;
+    position: absolute;
+    color:  #B9BDC5;
+    margin-top: 400px;
+    margin-left: var(--padding-left);
+}
+
+.text3 {
+    font-size: 110%;
+    position: absolute;
+    color:  #39455E;
+    margin-top: 550px;
+    margin-left: var(--padding-left);
+}
+
+.download {
+    display: flex;
+    position: absolute;
+    margin-top: 590px;
+    margin-left: var(--padding-left);
+}
+
+@media (max-width: 1000px) {
+.first-content {
+    background-size: 700px;
+    background-position: 480px 125px;
+    }
+}
+
+@media (max-width: 800px) {
+    .sign-up {
+        display: none;
+    }
+    .header {
+        padding-bottom: 20px;
+    }
+    .title-position {
+        margin-top: 50px;
+    }
+    .text1 {
+        margin-top: 125px;
+    }
+    .text2 {
+        margin-top: 250px;
+    }
+    .text3 {
+        margin-top: 400px;
+    }
+    .download {
+        margin-top: 450px;
+        display: block;
+    }
+    .first-content {
+        background-image: url(../../img/images/cards-mobile.png);
+        height: 900px;
+        background-size: 400px;
+        background-position: bottom center;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo {
+        top: 0;
+    }
+    .header {
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 550px) {
+    .text1 {
+        margin-top: 175px;
+        width: 400px;
+    }
+    .text2 {
+        margin-top: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .text1 {
+        width: 300px;
+    }
+    .text2 {
+        margin-top: 330px;
+        width: 300px;
+    }
+    .text3 {
+        margin-top: 440px;
+    }
+    .download {
+        margin-top: 500px;
+    }
+}
+
